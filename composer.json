@@ -1,0 +1,15 @@
+{
+    "name": "omaresmaeel/php1brc",
+    "autoload": {
+        "psr-4": {
+            "Omaresmaeel\\Php1brc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "omaresmaeel",
+            "email": "omaresmael590@gmail.com"
+        }
+    ],
+    "require": {}
+}
