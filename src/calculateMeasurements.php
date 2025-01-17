@@ -94,7 +94,7 @@ foreach ($results as $threadResult) {
         }
     }
 }
-
+ksort($finalStations);
 foreach ($finalStations as $station => $data) {
     $average = $data['sum'] / $data['count'];
     echo "$station/{$data['min']}/$average/{$data['max']}\n";
